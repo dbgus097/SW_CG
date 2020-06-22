@@ -24,7 +24,7 @@ var loader = new THREE.TextureLoader();
 loader.crossorigin = "";
 loader.load(
     // resource URL
-    'C:/Users/yuyu8/SW_CG/images/earthmap1k.jpg',
+    'images/earthmap1k.jpg',
     // 'https://gist.githubusercontent.com/marcopompili/082a159fcfc7c349771d10cbe991fb5d/raw/48eae984ab151f00d75a0b91c78f0eec6c98408c/relief.jpg',
   function(texture) {
     geometry = new THREE.SphereBufferGeometry(1, 32, 32);
